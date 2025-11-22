@@ -1,0 +1,19 @@
+.search-results {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(230,230,255,0.02);
+  min-height: 120px;
+}
+
+.search-results h2 {
+  color: #eaeaff;
+  margin-bottom: 1rem;
+}
+
+.search-results .songs-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+

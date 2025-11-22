@@ -1,0 +1,22 @@
+.library {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(230,230,255,0.02);
+  min-height: 120px;
+}
+
+.library h2{
+  color: #eaeaff;
+  margin-bottom: 1rem;
+}
+
+.library p{
+  color: #d0cfe8;
+  font-style: italic;
+}
+
+.library .songs-grid{
+  display: grid;
+  gap: 12px;
+}

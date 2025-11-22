@@ -1,0 +1,10 @@
+.app-header{
+    background: linear-gradient(90deg,#081022 0%, #0d1638 100%);
+    min-height: 72px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #fff;
+}

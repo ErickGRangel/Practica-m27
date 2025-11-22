@@ -2,34 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.app-header{
-    background-color: #282c34;
-    min-height: 10vh;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: medium;
-    color: white;
+html, body, #root {
+  height: 100%;
 }
+
+body {
+  background: linear-gradient(180deg, #070810 0%, #0b1222 100%);
+  color: #eef2ff;
+}
+
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .song-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    padding: 2rem;
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.song{
-    display: flex;
-    gap: 1.2rem;
-    flex-direction: column;
-    width: 30%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    
+.search-results, .library {
+  flex: 1 1 420px;
 }
-
 
